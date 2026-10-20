@@ -1,0 +1,42 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js Build and Cache Outputs
+/.next/
+/out/
+/build
+
+# Local Environment Variables
+# (Never commit actual secrets or credentials to GitHub!)
+.env
+.env*.local
+
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing and Coverage
+/coverage
+
+# Debug and System Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Vercel Deployment Metadata
+.vercel
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
